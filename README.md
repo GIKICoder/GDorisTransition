@@ -20,6 +20,21 @@ it, simply add the following line to your Podfile:
 pod 'GDorisTransition'
 ```
 
+## Usage
+
+```objc
+/// GDorisSwipeGestureTransition 带有swipe手势的转场.
+GCommentModalViewController * modal = [GCommentModalViewController new];
+modal.modalPresentationStyle = UIModalPresentationCustom;
+GDorisSwipeGestureTransition * swipeTransition = [GDorisSwipeGestureTransition swipeGestureTransitionWithTarget:modal];
+swipeTransition.needsTopMask = YES;
+swipeTransition.containerOffset = 124;
+modal.transitioningDelegate = swipeTransition;
+modal.modalPresentationStyle = UIModalPresentationCustom;
+modal.modalPresentationCapturesStatusBarAppearance = YES;
+[self presentViewController:modal animated:YES completion:nil];
+```
+
 ## Author
 
 810373457@qq.com, giki.biu@gmail.com
