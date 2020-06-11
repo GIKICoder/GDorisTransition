@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "GDorisPhotoZoomAnimatedTransition.h"
+#import "GDorisScrollerPanGesutreRecognizer.h"
+#import "GDorisSwipeGestureTransition.h"
 
 FOUNDATION_EXPORT double GDorisTransitionVersionNumber;
 FOUNDATION_EXPORT const unsigned char GDorisTransitionVersionString[];

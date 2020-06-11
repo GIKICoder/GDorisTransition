@@ -1,8 +1,14 @@
 PODS:
   - GDorisTransition (0.1.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - GDorisTransition (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   GDorisTransition:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   GDorisTransition: 8f88eb96929a810989ac2411301f792e209569ae
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 7c0a98623c58e46d9b032347426a2bac2f7a90d7
+PODFILE CHECKSUM: 1940a61e1f7158cdc5fc5ccc4f929732efc058f2
 
 COCOAPODS: 1.8.4

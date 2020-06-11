@@ -343,7 +343,7 @@ typedef enum : NSInteger {
     }
     if((scrollView.panGestureRecognizer.state) && (scrollView.contentOffset.y <= 0)) {
         scrollView.showsVerticalScrollIndicator = NO;
-        scrollView.contentOffset = CGPointMake(scrollView.contentOffset.x, 0 );
+        scrollView.contentOffset = CGPointMake(scrollView.contentOffset.x, 0);
     } else {
         scrollView.showsVerticalScrollIndicator = YES;
     }

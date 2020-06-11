@@ -7,30 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15139D71B8938F48C1D4A068BD736EC8 /* Pods-GDorisTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74735F6EC9CEC7773BD940AEF1FA4CA0 /* Pods-GDorisTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B5029C12492137D00305D8B /* GDorisScrollerPanGesutreRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5029BB2492137C00305D8B /* GDorisScrollerPanGesutreRecognizer.h */; };
-		2B5029C22492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5029BC2492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.m */; };
-		2B5029C32492137D00305D8B /* GDorisSwipeGestureTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5029BD2492137D00305D8B /* GDorisSwipeGestureTransition.h */; };
-		2B5029C42492137D00305D8B /* GDorisSwipeGestureTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5029BE2492137D00305D8B /* GDorisSwipeGestureTransition.m */; };
-		2B5029C52492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5029BF2492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.h */; };
-		2B5029C62492137D00305D8B /* GDorisScrollerPanGesutreRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5029C02492137D00305D8B /* GDorisScrollerPanGesutreRecognizer.m */; };
-		3FB948D928102BD1546959DC1E37F152 /* GDorisTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAD4F0D318E322ACB56D18AA8803AD /* GDorisTransition-dummy.m */; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16CD80643F09FAAD0F05D53B9C51A93C /* Pods-GDorisTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74735F6EC9CEC7773BD940AEF1FA4CA0 /* Pods-GDorisTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
+		32F2840C6760303448EA911F91D029BC /* GDorisSwipeGestureTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E806ACA6B343DE37AF94376CDE92AAB /* GDorisSwipeGestureTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F96FABB45CA9653AE069635B901E6D /* GDorisScrollerPanGesutreRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0600BC631F75EA335A3F4C2DB6C69EF1 /* GDorisScrollerPanGesutreRecognizer.m */; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C42F78056522714CC4B3AF5A4EBABCC /* Pods-GDorisTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAED88FF1F749DE2258F573F8A391F73 /* Pods-GDorisTransition_Tests-dummy.m */; };
 		4C7CE7014C8F85699B67B6D3B4DC6A74 /* Pods-GDorisTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E60052BFE2913499D666BFAA1E241980 /* Pods-GDorisTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A4AEAC66E50010DBA68ED551C170D73 /* GDorisTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB3ED0135AE625FF4097D787555029E /* GDorisTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0E1BEE357187A33E585995A958DCA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E3652E47430FD7D30D4A1B3B146CF730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EE3093FA284CE2BB2EB63D57980DF9EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F45397BB91A64A4091027AF15431E784 /* Pods-GDorisTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF1FCAAC8397D3C55F997DCECB6060 /* Pods-GDorisTransition_Example-dummy.m */; };
+		51B10B690401338BE44CB0E1AF2D274B /* GDorisScrollerPanGesutreRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F810571303DB41150CC1C45742C8803A /* GDorisScrollerPanGesutreRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A470ED2C8C723831FCFFE804E2E1C5 /* Pods-GDorisTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF1FCAAC8397D3C55F997DCECB6060 /* Pods-GDorisTransition_Example-dummy.m */; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E810580D978F95BF80B3C3348241544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		798431A1FE9C54DAA5B66429465EF7EC /* GDorisPhotoZoomAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A04D0AB61851B52C077A8392201F1B2C /* GDorisPhotoZoomAnimatedTransition.m */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
+		85AACBF9CBAF336EECF51D5391E3D83D /* GDorisTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EBB363AF33F6DF097CD6BF5F5DA65F /* GDorisTransition-dummy.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9171B4ACA26191848E3B8BB8534565B6 /* GDorisSwipeGestureTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C98934BB660625672A198F0C67F9D /* GDorisSwipeGestureTransition.m */; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
+		AEC5DFC6C81C562563FD74263F002F2A /* GDorisPhotoZoomAnimatedTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D92357270CD63EA765194005C676DF /* GDorisPhotoZoomAnimatedTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF3FBDAFE571FC39EFD244AF9AD98CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		B0E1BEE357187A33E585995A958DCA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C72C19F56EDC49C90B35176CDAF70750 /* GDorisTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DED1AD42DDDA799D761DDD38DC083DA3 /* GDorisTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3B8671E7A6FB4369C7105F6D8467EB27 /* PBXContainerItemProxy */ = {
+		6BACA3F38E33D84BDBE7C35099F05ACC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DF1C019D3B5F8EDF57386CAC3FC65DCE;
 			remoteInfo = GDorisTransition;
+		};
+		B07CEE9B1035C60FC3C2C416132415D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 		ECD29051A517871C914332492C54DA41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -42,22 +78,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		01682EBACBCF5E1254C23D62B80C7FCE /* Pods-GDorisTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDorisTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0272A70744B2487FFC401ABE6D5E6239 /* GDorisTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GDorisTransition.modulemap; sourceTree = "<group>"; };
-		04AAD4F0D318E322ACB56D18AA8803AD /* GDorisTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDorisTransition-dummy.m"; sourceTree = "<group>"; };
+		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		0600BC631F75EA335A3F4C2DB6C69EF1 /* GDorisScrollerPanGesutreRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDorisScrollerPanGesutreRecognizer.m; path = GDorisTransition/Classes/GDorisScrollerPanGesutreRecognizer.m; sourceTree = "<group>"; };
 		069E48758831B6952E6745438348F02B /* Pods-GDorisTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GDorisTransition_Tests.modulemap"; sourceTree = "<group>"; };
-		0B2768C2F3996012992A2FE8167DA48D /* GDorisTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDorisTransition-prefix.pch"; sourceTree = "<group>"; };
-		1C5845AC55B2234B4B4A992E5CEE179B /* GDorisTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GDorisTransition-Info.plist"; sourceTree = "<group>"; };
-		274CE5978E1BB7A0D972C8168230D630 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2B5029BB2492137C00305D8B /* GDorisScrollerPanGesutreRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDorisScrollerPanGesutreRecognizer.h; path = GDorisTransition/Classes/GDorisScrollerPanGesutreRecognizer.h; sourceTree = "<group>"; };
-		2B5029BC2492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDorisPhotoZoomAnimatedTransition.m; path = GDorisTransition/Classes/GDorisPhotoZoomAnimatedTransition.m; sourceTree = "<group>"; };
-		2B5029BD2492137D00305D8B /* GDorisSwipeGestureTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDorisSwipeGestureTransition.h; path = GDorisTransition/Classes/GDorisSwipeGestureTransition.h; sourceTree = "<group>"; };
-		2B5029BE2492137D00305D8B /* GDorisSwipeGestureTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDorisSwipeGestureTransition.m; path = GDorisTransition/Classes/GDorisSwipeGestureTransition.m; sourceTree = "<group>"; };
-		2B5029BF2492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDorisPhotoZoomAnimatedTransition.h; path = GDorisTransition/Classes/GDorisPhotoZoomAnimatedTransition.h; sourceTree = "<group>"; };
-		2B5029C02492137D00305D8B /* GDorisScrollerPanGesutreRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDorisScrollerPanGesutreRecognizer.m; path = GDorisTransition/Classes/GDorisScrollerPanGesutreRecognizer.m; sourceTree = "<group>"; };
-		2F78EBB2D7E777F94D7171577E532E5A /* GDorisTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDorisTransition.xcconfig; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		10D92357270CD63EA765194005C676DF /* GDorisPhotoZoomAnimatedTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDorisPhotoZoomAnimatedTransition.h; path = GDorisTransition/Classes/GDorisPhotoZoomAnimatedTransition.h; sourceTree = "<group>"; };
+		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		1E54F6294CC38A92421C852D5B320517 /* GDorisTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GDorisTransition-Info.plist"; sourceTree = "<group>"; };
+		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		36E6C88504DA3083DB3DDD820B530348 /* Pods-GDorisTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDorisTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D0490FEB3ABACAD605ED5C0FA24EB41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		5F40CECCD3079201380A2EC689DA7F81 /* GDorisTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GDorisTransition.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		6317A8ECB1149E9427D99B8C926A93F6 /* GDorisTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDorisTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0D29793257FA7A4BBE03898E79AEEF /* Pods-GDorisTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDorisTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6DE55054A6FB6BB1E4466431290AF24A /* Pods-GDorisTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDorisTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -66,19 +110,44 @@
 		74735F6EC9CEC7773BD940AEF1FA4CA0 /* Pods-GDorisTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDorisTransition_Example-umbrella.h"; sourceTree = "<group>"; };
 		791EE45AC4FB6BB597E3647B4BE393E7 /* Pods_GDorisTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDorisTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837F4E080182D57A648262620C11693C /* Pods-GDorisTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDorisTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		90EF1FCAAC8397D3C55F997DCECB6060 /* Pods-GDorisTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDorisTransition_Example-dummy.m"; sourceTree = "<group>"; };
+		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E806ACA6B343DE37AF94376CDE92AAB /* GDorisSwipeGestureTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDorisSwipeGestureTransition.h; path = GDorisTransition/Classes/GDorisSwipeGestureTransition.h; sourceTree = "<group>"; };
+		A04D0AB61851B52C077A8392201F1B2C /* GDorisPhotoZoomAnimatedTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDorisPhotoZoomAnimatedTransition.m; path = GDorisTransition/Classes/GDorisPhotoZoomAnimatedTransition.m; sourceTree = "<group>"; };
 		A13F2D4E343F8973DA5BC920F03A7DD9 /* Pods_GDorisTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDorisTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		A60D5C64BA0B042068ACB7D1D2AB25EA /* Pods-GDorisTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDorisTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A7B318E7374DA8F7E0647061623FA719 /* Pods-GDorisTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDorisTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A7BCA82C5557D7CA99E907847D4F4451 /* Pods-GDorisTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDorisTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AEF26D51BD80542F68A7011CA0E36384 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC970C1B9A90223A830F159872D272F1 /* GDorisTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GDorisTransition.modulemap; sourceTree = "<group>"; };
+		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		B2EBB363AF33F6DF097CD6BF5F5DA65F /* GDorisTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDorisTransition-dummy.m"; sourceTree = "<group>"; };
+		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		B6564737A68A6CB7C513706EEBF8E396 /* Pods-GDorisTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GDorisTransition_Example.modulemap"; sourceTree = "<group>"; };
+		C19ADB50DC5114157206314435E93FA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C6AB8C01BC497E9CECDDAD6EED788D30 /* GDorisTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDorisTransition.xcconfig; sourceTree = "<group>"; };
+		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		CAED88FF1F749DE2258F573F8A391F73 /* Pods-GDorisTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDorisTransition_Tests-dummy.m"; sourceTree = "<group>"; };
+		CCFC0A275BA146CE1830399B3922D942 /* GDorisTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDorisTransition-prefix.pch"; sourceTree = "<group>"; };
+		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DA3C98934BB660625672A198F0C67F9D /* GDorisSwipeGestureTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDorisSwipeGestureTransition.m; path = GDorisTransition/Classes/GDorisSwipeGestureTransition.m; sourceTree = "<group>"; };
+		DED1AD42DDDA799D761DDD38DC083DA3 /* GDorisTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDorisTransition-umbrella.h"; sourceTree = "<group>"; };
+		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		E60052BFE2913499D666BFAA1E241980 /* Pods-GDorisTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDorisTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		E83DC422A17F92A2FA5E41A49B9E7178 /* Pods-GDorisTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDorisTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB7B99B3921378E45080AEE3B493D4A8 /* GDorisTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GDorisTransition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FAB3ED0135AE625FF4097D787555029E /* GDorisTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDorisTransition-umbrella.h"; sourceTree = "<group>"; };
+		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F810571303DB41150CC1C45742C8803A /* GDorisScrollerPanGesutreRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDorisScrollerPanGesutreRecognizer.h; path = GDorisTransition/Classes/GDorisScrollerPanGesutreRecognizer.h; sourceTree = "<group>"; };
+		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,33 +159,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29A510A67F733ABB3470E5F5C44B0785 /* Frameworks */ = {
+		32D45F4472AC1FF68D0163D73499847C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3652E47430FD7D30D4A1B3B146CF730 /* Foundation.framework in Frameworks */,
+				6E810580D978F95BF80B3C3348241544 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99758FE30C1AF601454F07A49A004892 /* Frameworks */ = {
+		4D0BBE440F7F205C03A23A02495FA457 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3093FA284CE2BB2EB63D57980DF9EC /* Foundation.framework in Frameworks */,
+				AF3FBDAFE571FC39EFD244AF9AD98CF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1989E72022532F8EBB0264300C462943 /* Products */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6317A8ECB1149E9427D99B8C926A93F6 /* GDorisTransition.framework */,
-				A13F2D4E343F8973DA5BC920F03A7DD9 /* Pods_GDorisTransition_Example.framework */,
-				791EE45AC4FB6BB597E3647B4BE393E7 /* Pods_GDorisTransition_Tests.framework */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		22E271E93A272CFDEE149E3F07BC17AA /* Pods-GDorisTransition_Example */ = {
@@ -136,39 +212,77 @@
 			path = "Target Support Files/Pods-GDorisTransition_Example";
 			sourceTree = "<group>";
 		};
-		285793308D779FDFCD277FAF71301C81 /* Pod */ = {
+		52D0BFF80B06CB6A6CEBD3B08F47FEBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B5029BF2492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.h */,
-				2B5029BC2492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.m */,
-				2B5029BB2492137C00305D8B /* GDorisScrollerPanGesutreRecognizer.h */,
-				2B5029C02492137D00305D8B /* GDorisScrollerPanGesutreRecognizer.m */,
-				2B5029BD2492137D00305D8B /* GDorisSwipeGestureTransition.h */,
-				2B5029BE2492137D00305D8B /* GDorisSwipeGestureTransition.m */,
-				EB7B99B3921378E45080AEE3B493D4A8 /* GDorisTransition.podspec */,
-				274CE5978E1BB7A0D972C8168230D630 /* LICENSE */,
-				AEF26D51BD80542F68A7011CA0E36384 /* README.md */,
+				6317A8ECB1149E9427D99B8C926A93F6 /* GDorisTransition.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				A13F2D4E343F8973DA5BC920F03A7DD9 /* Pods_GDorisTransition_Example.framework */,
+				791EE45AC4FB6BB597E3647B4BE393E7 /* Pods_GDorisTransition_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */,
+				B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */,
+				130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */,
+				1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */,
+				D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */,
+				3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */,
+				36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */,
+				115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */,
+				5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */,
+				F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */,
+				86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */,
+				0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */,
+				ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */,
+				B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */,
+				A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */,
+				F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */,
+				C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */,
+				DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */,
+				9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */,
+				FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */,
+				9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */,
+				1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */,
+				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
+				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641727D7EBF7D099C436C5885417E360 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		856B0922EF8072F96C147E47C7937202 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5F40CECCD3079201380A2EC689DA7F81 /* GDorisTransition.podspec */,
+				C19ADB50DC5114157206314435E93FA8 /* LICENSE */,
+				4D0490FEB3ABACAD605ED5C0FA24EB41 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		568D29FA3EB5B8A491B21003E5301F05 /* Development Pods */ = {
+		88AB1C491C50AAD40B4DA6B297493203 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B77F93D45D9D2F1CFE7526247B302FB8 /* GDorisTransition */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		63143C48B73514C773CF52B1F99E3C22 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0272A70744B2487FFC401ABE6D5E6239 /* GDorisTransition.modulemap */,
-				2F78EBB2D7E777F94D7171577E532E5A /* GDorisTransition.xcconfig */,
-				04AAD4F0D318E322ACB56D18AA8803AD /* GDorisTransition-dummy.m */,
-				1C5845AC55B2234B4B4A992E5CEE179B /* GDorisTransition-Info.plist */,
-				0B2768C2F3996012992A2FE8167DA48D /* GDorisTransition-prefix.pch */,
-				FAB3ED0135AE625FF4097D787555029E /* GDorisTransition-umbrella.h */,
+				AC970C1B9A90223A830F159872D272F1 /* GDorisTransition.modulemap */,
+				C6AB8C01BC497E9CECDDAD6EED788D30 /* GDorisTransition.xcconfig */,
+				B2EBB363AF33F6DF097CD6BF5F5DA65F /* GDorisTransition-dummy.m */,
+				1E54F6294CC38A92421C852D5B320517 /* GDorisTransition-Info.plist */,
+				CCFC0A275BA146CE1830399B3922D942 /* GDorisTransition-prefix.pch */,
+				DED1AD42DDDA799D761DDD38DC083DA3 /* GDorisTransition-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GDorisTransition";
@@ -199,54 +313,68 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B77F93D45D9D2F1CFE7526247B302FB8 /* GDorisTransition */ = {
+		9D867FE9DF1EFC6FA2FC5E047D683523 /* GDorisTransition */ = {
 			isa = PBXGroup;
 			children = (
-				285793308D779FDFCD277FAF71301C81 /* Pod */,
-				63143C48B73514C773CF52B1F99E3C22 /* Support Files */,
+				10D92357270CD63EA765194005C676DF /* GDorisPhotoZoomAnimatedTransition.h */,
+				A04D0AB61851B52C077A8392201F1B2C /* GDorisPhotoZoomAnimatedTransition.m */,
+				F810571303DB41150CC1C45742C8803A /* GDorisScrollerPanGesutreRecognizer.h */,
+				0600BC631F75EA335A3F4C2DB6C69EF1 /* GDorisScrollerPanGesutreRecognizer.m */,
+				9E806ACA6B343DE37AF94376CDE92AAB /* GDorisSwipeGestureTransition.h */,
+				DA3C98934BB660625672A198F0C67F9D /* GDorisSwipeGestureTransition.m */,
+				856B0922EF8072F96C147E47C7937202 /* Pod */,
+				88AB1C491C50AAD40B4DA6B297493203 /* Support Files */,
 			);
 			name = GDorisTransition;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		BCA88C1F616749111342DED6B10FC2E2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				9D867FE9DF1EFC6FA2FC5E047D683523 /* GDorisTransition */,
 			);
-			name = iOS;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */,
+				002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */,
+				E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */,
+				025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */,
+				E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */,
+				8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				568D29FA3EB5B8A491B21003E5301F05 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1989E72022532F8EBB0264300C462943 /* Products */,
+				BCA88C1F616749111342DED6B10FC2E2 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				52D0BFF80B06CB6A6CEBD3B08F47FEBF /* Products */,
 				939B0D37071D33ABFCB0F43F9631F4B7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		43582319F664444B5D0CBDC3B42A0859 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15139D71B8938F48C1D4A068BD736EC8 /* Pods-GDorisTransition_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		458EF91DA12B86AFD308CE59FE328789 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,20 +383,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		738F80D84F0F8FDC523D9C0225C6E316 /* Headers */ = {
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5029C32492137D00305D8B /* GDorisSwipeGestureTransition.h in Headers */,
-				2B5029C12492137D00305D8B /* GDorisScrollerPanGesutreRecognizer.h in Headers */,
-				2B5029C52492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.h in Headers */,
-				5A4AEAC66E50010DBA68ED551C170D73 /* GDorisTransition-umbrella.h in Headers */,
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E0A245139BE5CF4F2D63076122FA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CD80643F09FAAD0F05D53B9C51A93C /* Pods-GDorisTransition_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AB319187D32B32DC6F79F30DC1D53C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC5DFC6C81C562563FD74263F002F2A /* GDorisPhotoZoomAnimatedTransition.h in Headers */,
+				51B10B690401338BE44CB0E1AF2D274B /* GDorisScrollerPanGesutreRecognizer.h in Headers */,
+				32F2840C6760303448EA911F91D029BC /* GDorisSwipeGestureTransition.h in Headers */,
+				C72C19F56EDC49C90B35176CDAF70750 /* GDorisTransition-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C44D334D867A4B7173A9E80BD8E0BDDA /* Pods-GDorisTransition_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2521432C42A027A9D8BCB64CAE79CF2 /* Build configuration list for PBXNativeTarget "Pods-GDorisTransition_Tests" */;
@@ -290,12 +467,12 @@
 		};
 		DF1C019D3B5F8EDF57386CAC3FC65DCE /* GDorisTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 222DD1041A85D99C71B5E50FCBE7524A /* Build configuration list for PBXNativeTarget "GDorisTransition" */;
+			buildConfigurationList = 96A05AAAFF7BFF5D89A121F1BF352963 /* Build configuration list for PBXNativeTarget "GDorisTransition" */;
 			buildPhases = (
-				738F80D84F0F8FDC523D9C0225C6E316 /* Headers */,
-				1774A9B3D85D0D5FAABD1DC57EEB3FCD /* Sources */,
-				99758FE30C1AF601454F07A49A004892 /* Frameworks */,
-				9D53E8C03E780EDA9B526A23A2C3E2C5 /* Resources */,
+				D6AB319187D32B32DC6F79F30DC1D53C /* Headers */,
+				CEB557F47FAB2536A0B0D0FB259DE0D6 /* Sources */,
+				32D45F4472AC1FF68D0163D73499847C /* Frameworks */,
+				38C776058853081345C5E245F7C69620 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -308,17 +485,18 @@
 		};
 		E3B5BD30FCD601D51E1B0FD25BD6A11F /* Pods-GDorisTransition_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43856E2F11AB452A2D40074830F85AC2 /* Build configuration list for PBXNativeTarget "Pods-GDorisTransition_Example" */;
+			buildConfigurationList = 690FAD98576B1ECD965FEF65AC78BCE1 /* Build configuration list for PBXNativeTarget "Pods-GDorisTransition_Example" */;
 			buildPhases = (
-				43582319F664444B5D0CBDC3B42A0859 /* Headers */,
-				5C01F5ECC8D6CE6F9A843A7D8704239B /* Sources */,
-				29A510A67F733ABB3470E5F5C44B0785 /* Frameworks */,
-				C48DA0DFBA87685BB5DA3CCFBA5F3B3F /* Resources */,
+				A83E0A245139BE5CF4F2D63076122FA5 /* Headers */,
+				F22979DB05C66CE58CA8CA9C33F969A9 /* Sources */,
+				4D0BBE440F7F205C03A23A02495FA457 /* Frameworks */,
+				47C9D7D616B6F095CF71E3EAB54951E9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3CD3A13298853C751197C466B13B0B3A /* PBXTargetDependency */,
+				9B7DDDB033F238FD9342A962185806B5 /* PBXTargetDependency */,
+				D95A409A422AD2D8C1EEB49F95DCA252 /* PBXTargetDependency */,
 			);
 			name = "Pods-GDorisTransition_Example";
 			productName = "Pods-GDorisTransition_Example";
@@ -343,11 +521,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1989E72022532F8EBB0264300C462943 /* Products */;
+			productRefGroup = 52D0BFF80B06CB6A6CEBD3B08F47FEBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DF1C019D3B5F8EDF57386CAC3FC65DCE /* GDorisTransition */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				E3B5BD30FCD601D51E1B0FD25BD6A11F /* Pods-GDorisTransition_Example */,
 				C44D334D867A4B7173A9E80BD8E0BDDA /* Pods-GDorisTransition_Tests */,
 			);
@@ -355,14 +534,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D53E8C03E780EDA9B526A23A2C3E2C5 /* Resources */ = {
+		38C776058853081345C5E245F7C69620 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C48DA0DFBA87685BB5DA3CCFBA5F3B3F /* Resources */ = {
+		47C9D7D616B6F095CF71E3EAB54951E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,14 +565,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1774A9B3D85D0D5FAABD1DC57EEB3FCD /* Sources */ = {
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB948D928102BD1546959DC1E37F152 /* GDorisTransition-dummy.m in Sources */,
-				2B5029C42492137D00305D8B /* GDorisSwipeGestureTransition.m in Sources */,
-				2B5029C22492137D00305D8B /* GDorisPhotoZoomAnimatedTransition.m in Sources */,
-				2B5029C62492137D00305D8B /* GDorisScrollerPanGesutreRecognizer.m in Sources */,
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,28 +591,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C01F5ECC8D6CE6F9A843A7D8704239B /* Sources */ = {
+		CEB557F47FAB2536A0B0D0FB259DE0D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45397BB91A64A4091027AF15431E784 /* Pods-GDorisTransition_Example-dummy.m in Sources */,
+				798431A1FE9C54DAA5B66429465EF7EC /* GDorisPhotoZoomAnimatedTransition.m in Sources */,
+				43F96FABB45CA9653AE069635B901E6D /* GDorisScrollerPanGesutreRecognizer.m in Sources */,
+				9171B4ACA26191848E3B8BB8534565B6 /* GDorisSwipeGestureTransition.m in Sources */,
+				85AACBF9CBAF336EECF51D5391E3D83D /* GDorisTransition-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22979DB05C66CE58CA8CA9C33F969A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A470ED2C8C723831FCFFE804E2E1C5 /* Pods-GDorisTransition_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3CD3A13298853C751197C466B13B0B3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GDorisTransition;
-			target = DF1C019D3B5F8EDF57386CAC3FC65DCE /* GDorisTransition */;
-			targetProxy = 3B8671E7A6FB4369C7105F6D8467EB27 /* PBXContainerItemProxy */;
-		};
 		9792849927CACA1DE4E4274553708D03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GDorisTransition_Example";
 			target = E3B5BD30FCD601D51E1B0FD25BD6A11F /* Pods-GDorisTransition_Example */;
 			targetProxy = ECD29051A517871C914332492C54DA41 /* PBXContainerItemProxy */;
+		};
+		9B7DDDB033F238FD9342A962185806B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GDorisTransition;
+			target = DF1C019D3B5F8EDF57386CAC3FC65DCE /* GDorisTransition */;
+			targetProxy = 6BACA3F38E33D84BDBE7C35099F05ACC /* PBXContainerItemProxy */;
+		};
+		D95A409A422AD2D8C1EEB49F95DCA252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = B07CEE9B1035C60FC3C2C416132415D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,6 +666,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3FFB00DF295A767F81276B0220FCBF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AB8C01BC497E9CECDDAD6EED788D30 /* GDorisTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GDorisTransition/GDorisTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDorisTransition/GDorisTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GDorisTransition/GDorisTransition.modulemap";
+				PRODUCT_MODULE_NAME = GDorisTransition;
+				PRODUCT_NAME = GDorisTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -515,6 +757,102 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5347FB31BE11A35A8C24BFF406341FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BCA82C5557D7CA99E907847D4F4451 /* Pods-GDorisTransition_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GDorisTransition_Example/Pods-GDorisTransition_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDorisTransition_Example/Pods-GDorisTransition_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673ABA6EBA221418EF6C1CC1CA26022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AB8C01BC497E9CECDDAD6EED788D30 /* GDorisTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GDorisTransition/GDorisTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDorisTransition/GDorisTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GDorisTransition/GDorisTransition.modulemap";
+				PRODUCT_MODULE_NAME = GDorisTransition;
+				PRODUCT_NAME = GDorisTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -580,9 +918,9 @@
 			};
 			name = Debug;
 		};
-		96FFC83466D128C808C758781043C605 /* Debug */ = {
+		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F78EBB2D7E777F94D7171577E532E5A /* GDorisTransition.xcconfig */;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -593,14 +931,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GDorisTransition/GDorisTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GDorisTransition/GDorisTransition-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GDorisTransition/GDorisTransition.modulemap";
-				PRODUCT_MODULE_NAME = GDorisTransition;
-				PRODUCT_NAME = GDorisTransition;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -645,72 +983,7 @@
 			};
 			name = Release;
 		};
-		AA3D1D7A93B819567F8C9B141FB28A36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F78EBB2D7E777F94D7171577E532E5A /* GDorisTransition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GDorisTransition/GDorisTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GDorisTransition/GDorisTransition-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GDorisTransition/GDorisTransition.modulemap";
-				PRODUCT_MODULE_NAME = GDorisTransition;
-				PRODUCT_NAME = GDorisTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DD934B1F28854A1961BC1FCDF1274D93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7BCA82C5557D7CA99E907847D4F4451 /* Pods-GDorisTransition_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GDorisTransition_Example/Pods-GDorisTransition_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GDorisTransition_Example/Pods-GDorisTransition_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FD1F6FB599730781A8910953612B5E86 /* Release */ = {
+		F1D5EFF956487205CC809336B9437112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 837F4E080182D57A648262620C11693C /* Pods-GDorisTransition_Example.release.xcconfig */;
 			buildSettings = {
@@ -747,29 +1020,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		222DD1041A85D99C71B5E50FCBE7524A /* Build configuration list for PBXNativeTarget "GDorisTransition" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96FFC83466D128C808C758781043C605 /* Debug */,
-				AA3D1D7A93B819567F8C9B141FB28A36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		43856E2F11AB452A2D40074830F85AC2 /* Build configuration list for PBXNativeTarget "Pods-GDorisTransition_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD934B1F28854A1961BC1FCDF1274D93 /* Debug */,
-				FD1F6FB599730781A8910953612B5E86 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690FAD98576B1ECD965FEF65AC78BCE1 /* Build configuration list for PBXNativeTarget "Pods-GDorisTransition_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5347FB31BE11A35A8C24BFF406341FC8 /* Debug */,
+				F1D5EFF956487205CC809336B9437112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C65F7CC9708EE0690525E4800598E8E /* Debug */,
+				527D6664223B803E9C7307F58E3CA12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A05AAAFF7BFF5D89A121F1BF352963 /* Build configuration list for PBXNativeTarget "GDorisTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673ABA6EBA221418EF6C1CC1CA26022C /* Debug */,
+				3FFB00DF295A767F81276B0220FCBF77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

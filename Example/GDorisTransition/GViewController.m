@@ -7,6 +7,7 @@
 //
 
 #import "GViewController.h"
+#import "GCommentMainViewController.h"
 @interface GViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) UITableView * tableView;
 @property (nonatomic, strong) NSArray * datas;
@@ -42,7 +43,12 @@
 
 - (void)loadDatas
 {
-    self.datas = @[@"头条评论转场"];
+    NSMutableArray * arrryM = [NSMutableArray array];
+    NSDictionary * comment = @{@"title":@"头条评论转场",
+                               @"class":@"GCommentMainViewController"
+    };
+    [arrryM addObject:comment];
+    self.datas = arrryM.copy;
 }
 
 #pragma mark -- TableView DataSource
@@ -63,7 +69,8 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"tableViewCell"];
     }
-    cell.textLabel.text = [self.datas objectAtIndex:indexPath.row];;
+    NSDictionary * dict = [self.datas objectAtIndex:indexPath.row];;
+    cell.textLabel.text = [dict objectForKey:@"title"];
     cell.textLabel.textColor = [UIColor blackColor];
     return cell;
 }
@@ -73,7 +80,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    NSDictionary * dict = [self.datas objectAtIndex:indexPath.row];
+    NSString * clazz_str = [dict objectForKey:@"class"];
+    Class clazz = NSClassFromString(clazz_str);
+    UIViewController * vc = [[clazz alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
