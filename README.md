@@ -39,9 +39,8 @@ modal.modalPresentationCapturesStatusBarAppearance = YES;
 
 ==============
 
-[![Alt][screenshot1_thumb]]   [![Alt][screenshot2_thumb]]  
-[screenshot1_thumb]: https://github.com/GIKICoder/GDorisTransition/tree/master/Example/screenshot/0001.png
-[screenshot2_thumb]: https://github.com/GIKICoder/GDorisTransition/tree/master/Example/screenshot/0002.png
+<img src="https://github.com/GIKICoder/GDorisTransition/tree/master/Example/screenshot/0001.png" width="320">
+<img src="https://github.com/GIKICoder/GDorisTransition/tree/master/Example/screenshot/0002.png" width="320">
 
 ## Author
 
