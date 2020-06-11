@@ -1,0 +1,6 @@
+framework module GDorisTransition {
+  umbrella header "GDorisTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

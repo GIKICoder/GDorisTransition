@@ -1,0 +1,22 @@
+{
+  "name": "GDorisTransition",
+  "version": "0.1.0",
+  "summary": "A short description of GDorisTransition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/810373457@qq.com/GDorisTransition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "810373457@qq.com": "giki.biu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/810373457@qq.com/GDorisTransition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GDorisTransition/Classes/**/*"
+}
